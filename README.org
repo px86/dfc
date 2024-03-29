@@ -1,0 +1,21 @@
+#+TITLE: dfc - duplicate file cleaner
+#+AUTHOR: Pushkar Raj
+#+EMAIL: px86@protonmail.com
+#+DATE: [2024-03-29 Fri]
+
+A command line tool written in =go=, that finds duplicate files in a given directory tree, and interactively asks the user which file they want to keep.
+
+* To Build
+
+#+begin_src shell
+  go build dfc.go
+#+end_src
+
+
+* Example Usage
+
+To clean duplicate files under =Documents= folder,
+
+#+begin_src shell
+  ./dfc ~/Documents/
+#+end_src
